@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <title>DAT: Ejercicio 5.9.6 </title>
+        <script src="jquery-1.11.2.min.js" type="text/javascript"></script>
+        <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" />
+        <link rel="stylesheet" type="text/css" href="5_9_6.css" title="style" />
+        <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
+        <link href="ui/jquery-ui.css" rel="stylesheet">
+        <script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script>
+        <script src="5_9_6.js" type="text/javascript"></script>
+        <script src="ui/external/jquery/jquery.js"></script>
+        <script src="ui/jquery-ui.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    </head>
+    <body>
+        <div id="map"></div>
+        <button id = "BTNedificios" type="button">Mostrar 2 edificios URJC!</button>
+        
+
+
+
+
+
+
+
+    <button id = "BTNfotos" type="button" >Mostrar fotos</button>
+
+
+        
+
+
+
+
+<div id="mapCarousel">
+<div class="container">
+  <div class='row'>
+    <div class='col-md-8'>
+      <div class="carousel slide media-carousel" id="media">
+        <div class="carousel-inner">
+          <div class="item  active">
+            <div class="row">
+              <div class="col-md-4">
+                <a class="thumbnail" href="#"><img id="foto0" alt="" src="http://placehold.it/150x150"></a>
+              </div>          
+              <div class="col-md-4">
+                <a class="thumbnail" href="#"><img id="foto1" alt="" src="http://placehold.it/150x150"></a>
+              </div>
+              <div class="col-md-4">
+                <a class="thumbnail" href="#"><img id="foto2" alt="" src="http://placehold.it/150x150"></a>
+              </div>        
+            </div>
+          </div>
+          <div class="item">
+            <div class="row">
+              <div class="col-md-4">
+                <a class="thumbnail" href="#"><img id="foto3" alt="" src="http://placehold.it/150x150"></a>
+              </div>          
+              <div class="col-md-4">
+                <a class="thumbnail" href="#"><img id="foto4" alt="" src="http://placehold.it/150x150"></a>
+              </div>
+              <div class="col-md-4">
+                <a class="thumbnail" href="#"><img id="foto5" alt="" src="http://placehold.it/150x150"></a>
+              </div>        
+            </div>
+          </div>
+          <div class="item">
+            <div class="row">
+              <div class="col-md-4">
+                <a class="thumbnail" href="#"><img id="foto6" alt="" src="http://placehold.it/150x150"></a>
+              </div>          
+              <div class="col-md-4">
+                <a class="thumbnail" href="#"><img id="foto7" alt="" src="http://placehold.it/150x150"></a>
+              </div>
+              <div class="col-md-4">
+                <a class="thumbnail" href="#"><img id="foto8" alt="" src="http://placehold.it/150x150"></a>
+              </div>      
+            </div>
+          </div>
+        </div>
+        <a data-slide="prev" href="#media" class="left carousel-control">‹</a>
+        <a data-slide="next" href="#media" class="right carousel-control">›</a>
+      </div>                          
+    </div>
+  </div>
+</div>
+<button id = "BTNocultar" type="button" >Ocultar fotos</button>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div id="search">
+          <input type="text" name="addr" value="" id="addr" size="10" />
+          <button type="button" onclick="addr_search();">Search</button>
+          <div id="results"/>
+        </div>
+        
+        <script src="js/bootstrap.min.js"></script>
+        
+    </body>
+</html>
+
